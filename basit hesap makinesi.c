@@ -35,5 +35,9 @@ switch(islem)
     case '/' :
     sonuc=sayi/sayi2;
     printf("Sonuc:%d",sonuc); break;
+    
+    default:
+    printf("Geçersiz islem yapmaya calıstınız!"); break;
+    
     }
 }
